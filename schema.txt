@@ -1,0 +1,5 @@
+User(id(pk), Fname,Lname, email, role , password )
+
+User_Phone(user_id(foreign key), phone)
+
+product(id(pk), name, stock, isDeleted, price, user_id(foreign key))
